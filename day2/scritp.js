@@ -22,4 +22,5 @@ const cursor = document.querySelector('.custom-cursor');
 
 document.addEventListener('mousemove', (e) => {
     gsap.to(cursor, { duration: 0.2, x: e.clientX, y: e.clientY });
+    
 });
