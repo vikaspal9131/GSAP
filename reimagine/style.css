@@ -14,6 +14,7 @@
 html body {
   height: 100%;
   width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 body::-webkit-scrollbar{
   display: none;
@@ -57,6 +58,7 @@ body::-webkit-scrollbar{
   white-space: nowrap;
   overflow-x: auto;
   background-color: white;
+ 
 }
 .con{
   white-space: nowrap;
@@ -73,7 +75,12 @@ body::-webkit-scrollbar{
   font-size: 3rem;
   margin-left: 8vw;
   display: inline-block;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .moving-text::-webkit-scrollbar{
   display: none;
+}
+
+.hero-section h1 {
+  font-size: 9rem;
 }
