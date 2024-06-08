@@ -22,7 +22,7 @@ body::-webkit-scrollbar{
 .page1{
   width: 100%;
   height: 100vh;
-  background-color:#ecbcbc;
+  background-color:#f5d2c6;
 }
 .nav{
   width: 100%;
@@ -38,6 +38,7 @@ body::-webkit-scrollbar{
 .nav .option li{
   list-style-type:none ;
   margin-left: 3vw;
+  font-size: 1.2rem;
 }
 .nav-icon{
   list-style-type:none ;
@@ -52,7 +53,8 @@ body::-webkit-scrollbar{
 }
 .hero-section{
   width: 100%;
-  height: 84vh;
+  height: 82vh;
+  display: flex;
 }
 .moving-text{
   white-space: nowrap;
@@ -80,7 +82,22 @@ body::-webkit-scrollbar{
 .moving-text::-webkit-scrollbar{
   display: none;
 }
-
 .hero-section h1 {
   font-size: 9rem;
+  line-height: 150px
+  }
+.heading{
+  width: 50%;
+  height: 80%;
+  margin-top: 50px;
+  margin-left: 70px;
+}
+.video{
+  width: 40%;
+  height: 100%;
+}
+
+.video video{
+  width: 100%;
+  height: 100%;
 }
