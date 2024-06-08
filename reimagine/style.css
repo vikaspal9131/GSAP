@@ -53,7 +53,7 @@ body::-webkit-scrollbar{
 }
 .hero-section{
   width: 100%;
-  height: 82vh;
+  height: 83vh;
   display: flex;
 }
 .moving-text{
@@ -96,8 +96,43 @@ body::-webkit-scrollbar{
   width: 40%;
   height: 100%;
 }
-
 .video video{
   width: 100%;
   height: 100%;
+}
+
+.page2{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.product-img{
+  width: 30%;
+  height: 100vh;
+  
+}
+.product-name{
+  width: 38%;
+  height: 100vh;
+}
+.modal{
+  width: 30%;
+  height: 100vh;
+ 
+}
+.product-name h1{
+   font-size: 6rem;
+}
+
+.h2{
+  margin-left: 10vw;
+}
+.h3{
+  margin-left: 4vw;
+}
+.h4{
+  margin-left: 7vw;
+}
+.h6{
+  margin-left: 10vw;
 }
