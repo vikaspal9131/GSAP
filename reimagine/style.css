@@ -16,9 +16,9 @@ html body {
   width: 100%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-body::-webkit-scrollbar{
+/* body::-webkit-scrollbar{
   display: none;
-}
+} */
 .page1{
   width: 100%;
   height: 100vh;
@@ -105,15 +105,21 @@ body::-webkit-scrollbar{
   width: 100%;
   height: 100vh;
   display: flex;
+ 
 }
+
 .product-img{
   width: 30%;
-  height: 100vh;
-  
+  height: 100vh;  
 }
 .product-name{
-  width: 38%;
+  width: 40%;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: default;
+ 
 }
 .modal{
   width: 30%;
@@ -122,6 +128,12 @@ body::-webkit-scrollbar{
 }
 .product-name h1{
    font-size: 6rem;
+   font-weight: 500;
+   line-height: 110px
+}
+
+.h1{
+   margin-left: 3vw;
 }
 
 .h2{
@@ -135,4 +147,8 @@ body::-webkit-scrollbar{
 }
 .h6{
   margin-left: 10vw;
+}
+.product-name h1:hover{
+  color: #464242;
+  transition: 200ms;
 }
