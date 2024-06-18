@@ -162,4 +162,7 @@ html body {
 
 
 .add{
+  display: inline-grid;
+  color: aliceblue;
+
 }
