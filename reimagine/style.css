@@ -164,8 +164,8 @@ html body {
 .add{
   display: inline-grid;
   color: aliceblue;
-
 }
-p{
-  
+
+.lad{
+  display: flex;
 }
