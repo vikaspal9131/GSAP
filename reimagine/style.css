@@ -169,3 +169,7 @@ html body {
 .lad{
   display: flex;
 }
+
+.l{
+  display: inline;
+}
